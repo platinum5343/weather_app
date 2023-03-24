@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import Map, { Marker, NavigationControl,GeolocateControl, FullscreenControl } from "react-map-gl"
+import Map, { Marker, NavigationControl, GeolocateControl, FullscreenControl } from "react-map-gl"
 import Search from './component/searchBar/Search';
 import Sidebar from './component/Sidebar/Sidebar';
+
 
 function App() {
   const [lng, setLng] = useState(54.37585762735543);
@@ -12,10 +13,9 @@ function App() {
   return (
     <div>
       <Search/>
-      <div className="dray">
-      <Sidebar/> 
-      <Map className="map"
-       mapboxAccessToken="pk.eyJ1Ijoib2xhc2NvcnAiLCJhIjoiY2xmbWJnaGJuMGFiMzQycjJhaDcwem9jbyJ9.EDVQwdzPaaxuyxzR0jskPQ"
+      <Sidebar/>
+      <Map className="dray"
+       mapboxAccessToken="pk.eyJ1Ijoib2xhc2NvcnAiLCJhIjoiY2xmbWx6eHExMGQxejNwbzF6MHlnbGwxZCJ9.VC1keTd3vPqfTAKEJLcN7A"
        style={{
          width:"500px",
          height:"500px",
@@ -38,7 +38,6 @@ function App() {
      <FullscreenControl/>
       <GeolocateControl/>
       </Map>
-      </div>
     </div>
   );
 }
