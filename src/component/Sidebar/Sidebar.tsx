@@ -1,38 +1,225 @@
 import React from 'react'
-import './Sidebar.css';
-
+import './Sidebar.css'
+import { Home } from '@mui/icons-material';
+import { Box, List, ListItem ,ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
 
 const Sidebar = () => {
   return (
-      <div className='container'>
-        <div className="sidebar">
-            <div className="topsection">
-                <div className="bars"></div>
-        
-        </div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-    <div>Sidebar</div>
-        </div>
-    </div>
+    <Box 
+    className='side'>
+      <List >
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#home">
+            <ListItemIcon>
+              <Home/>
+            </ListItemIcon>
+            <ListItemText primary="cities" />
+          </ListItemButton>
+         
+          
+        </ListItem>
+      </List>
+    </Box>
   )
 }
 
